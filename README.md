@@ -36,3 +36,19 @@ Here are some images from our dataset
 
 ![Screenshot 2022-12-20 161605](https://user-images.githubusercontent.com/78556152/208676083-ffc05990-11b0-406d-8976-d1d9ead1d654.png)
 ![Screenshot 2022-12-20 161527](https://user-images.githubusercontent.com/78556152/208676094-cf12a794-ebe2-4624-9a68-e8663c2c2873.png)
+
+
+## Keras Model
+
+The dataset is first configured for performance with two functions
+
+data.cache() and 
+
+data.prefetch().
+
+RGB channel values are standardized to [0,1] range using tf.keras.Rescalling
+
+The model is then created and compiled. Here is the model summary
+
+![Screenshot 2022-12-20 162055](https://user-images.githubusercontent.com/78556152/208676964-aa391c04-8904-42f5-b7a5-1c5a9691b096.png)
+
