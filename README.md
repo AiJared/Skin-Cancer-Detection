@@ -52,3 +52,18 @@ The model is then created and compiled. Here is the model summary
 
 ![Screenshot 2022-12-20 162055](https://user-images.githubusercontent.com/78556152/208676964-aa391c04-8904-42f5-b7a5-1c5a9691b096.png)
 
+## Training the Model
+
+The model is trained with 10 epochs as shown below
+
+![Screenshot 2022-12-20 162511](https://user-images.githubusercontent.com/78556152/208677677-784e49cd-d26c-43bf-87b9-30dc238f4a1f.png)
+
+As seen in the image above, the results are great given a good training and validation accuracy.
+
+## Visualizing Training Results
+
+Plots on accuracy and loss are created for training and validation sets.
+
+![Screenshot 2022-12-20 162835](https://user-images.githubusercontent.com/78556152/208678247-cd489552-1ebe-4bba-bd8c-bf52a6fffada.png)
+
+The results look great with the training and validation accuracies being on close margins. However, adding augmentation technique and a Dropout layer to our model makes it even much remarkable.
