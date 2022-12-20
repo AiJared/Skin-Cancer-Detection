@@ -32,3 +32,7 @@ There are two classes; benign class and malignant class as shown below
 ![Screenshot 2022-12-20 161200](https://user-images.githubusercontent.com/78556152/208675418-a31538b4-dd5e-4dd0-bd16-0cb928e032ce.png)
 
 
+Here are some images from our dataset
+
+![Screenshot 2022-12-20 161605](https://user-images.githubusercontent.com/78556152/208676083-ffc05990-11b0-406d-8976-d1d9ead1d654.png)
+![Screenshot 2022-12-20 161527](https://user-images.githubusercontent.com/78556152/208676094-cf12a794-ebe2-4624-9a68-e8663c2c2873.png)
