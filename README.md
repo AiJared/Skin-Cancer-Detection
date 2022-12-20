@@ -67,3 +67,17 @@ Plots on accuracy and loss are created for training and validation sets.
 ![Screenshot 2022-12-20 162835](https://user-images.githubusercontent.com/78556152/208678247-cd489552-1ebe-4bba-bd8c-bf52a6fffada.png)
 
 The results look great with the training and validation accuracies being on close margins. However, adding augmentation technique and a Dropout layer to our model makes it even much remarkable.
+
+
+## Predicting on New Data
+
+When a new image is given to the model for prediction, it classifies it correctly in the right class
+
+![Screenshot 2022-12-20 164019](https://user-images.githubusercontent.com/78556152/208680556-804d88af-c69b-443a-82cd-6dba7969ad1f.png)
+
+
+## Saving the model
+
+The model is saved and served with tensorflow serving in docker during deployment
+
+![Screenshot 2022-12-20 164214](https://user-images.githubusercontent.com/78556152/208680895-1be8814b-e5d4-4c67-8af7-215e437c4677.png)
